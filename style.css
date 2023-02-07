@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Styling main container */
+.container{
+    background-color: #6b21a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+} 
+/* Styling number in a container */
+#stopwatch{
+    background-color: #c084fc;
+    font-size: 100px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* Styling Button */
+#buttons{
+    display: flex;
+}
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 10px;
+    width: 100px;
+    box-shadow: 10px 10px 1px rgba(56,51,51,0.5);
+    transition: all 0.5s;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    box-shadow: none;
+    transition: all 0.5s;
+}
